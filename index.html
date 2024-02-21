@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Currículum</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand titulo" href=""><h1 id="mi-nombre">René MG</h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="menu" class="navbar-nav ml-auto"> <!-- Mueve el menú a la derecha -->
+                    <li class="nav-item"><a class="nav-link text-dark" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#educacion">Educación</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="container">
+        <article id="inicio">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Bienvenido</h2>
+                    <p>Hola Mundo! mi nombre es <strong>René Mogrovejo</strong> y soy Desarrollador Web Full-Stack, tengo 25 años y soy un  
+                    apasionado por el aprendizaje continuo,tengo muchas ganas de ganar la mayor cantidad de experiencia,
+                    y empezar nuevas etapas en mi vida profesional.</p>
+                </div>
+                <div class="col-md-6">
+                    <img class="mi-foto img-fluid" src="assets/Saved Pictures/mi_foto.jpg" alt="mi FOTO"> <!-- Agregado img-fluid para hacer la imagen responsive -->
+                </div>
+            </div>
+        </article>
+        <a id="sobre-mi" href="#educacion">Sobre Mi</a>
+        <article id="educacion">
+            <h2>Educación</h2>
+            <div class="experience-item">
+                <h3>Tecnología Superior en Desarrollo de Software</h3>
+                <p><a class="link_w" href="https://wissen.edu.ec/desarrollo-del-software/" target="_blank"><img class="img_wissen" src="assets/Saved Pictures/wissen.png" alt=""> <strong>Instituto Tecnologico Superior Wissen</strong></a> - Fecha de graduación: Octubre 2023</p>
+                <p>Proyecto de tesis: <a href="#">"Aplicacion movil Flutter-Prevencion de Cancer"</a></p>
+                <img class="img_1app" src="https://appdesign.dev/wp-content/uploads/2019/08/empresa-flutter-scaled.webp" width="35%" alt="Proyecto 2">
+                <img src="https://appdesign.dev/wp-content/uploads/2019/08/empresa-flutter-scaled.webp" width="35%" alt="Proyecto 2"> 
+            </div>
+        </article>
+        <article id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+            <div class="experience-item">
+                <div class="row">
+                    <div class="col-md-3"><img src="assets/Saved Pictures/html_logo.png" class="img-fluid" alt=""></div>
+                    <div class="col-md-3"><img src="assets/Saved Pictures/css_logo.webp" class="img-fluid" alt=""></div>
+                    <div class="col-md-3"><img src="assets/Saved Pictures/js_logo.jpg" class="img-fluid" alt=""></div>
+                    <div class="col-md-3"><img src="assets/Saved Pictures/logo_php.svg" class="img-fluid" alt=""></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"><img src="assets/Saved Pictures/Kotlin_Icon.png" class="img-fluid" alt=""></div>
+                    <div class="col-md-3"><img src="assets/Saved Pictures/django-python-logo.png" class="img-fluid" alt=""></div>
+                    <div class="col-md-3"><img src="assets/Saved Pictures/bootstrap_logo.png" class="img-fluid" alt=""></div>
+                    <div class="col-md-3"><img src="assets/Saved Pictures/git_logo.png" class="img-fluid" alt=""></div>
+                </div>
+            </div>
+        </article>
+        <article id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <div class="projects-item">
+                <h3>Proyecto 1</h3>
+                <p>CRUD Kotlin Room <a href="https://github.com/Rene305/CRUD_KT_RETROFIT.git">Ver más</a></p>
+                <p>proyecto específico se utilizaron diversas técnicas y tecnologías, tales como "binding" (enlazado de datos), null safety (seguridad de nulos), data classes (clases de datos) y ROOM (una biblioteca de persistencia de datos de Android) para el manejo de SQL mediante ORM (Mapeo Objeto-Relacional).  </p>
+                <img src="assets/Saved Pictures/Pantalla_1.png" class="img-fluid" width="25%" alt="Proyecto 1">
+                <img src="assets/Saved Pictures/Pantalla_2.png" class="img-fluid" width="25%" alt="Proyecto 1">
+                <img src="assets/Saved Pictures/Pantalla_3.png" class="img-fluid" width="25%" alt="Proyecto 1">
+                <img src="assets/Saved Pictures/Pantalla_4.png" class="img-fluid" width="25%" alt="Proyecto 1">
+                <img src="assets/Saved Pictures/Pantalla_5.png" class="img-fluid" width="25%" alt="Proyecto 1">
+                 <!-- Agregado img-fluid para hacer la imagen responsive -->
+            </div>
+            <div class="projects-item">
+                <h3>Proyecto 2</h3>
+                <p>Calculadora INDICE MASA CORPORAL <a href="https://github.com/Rene305/calcu_imc.git">Ver más</a></p>
+                <p>Este proyecto se realizo con el unico fin de conocer mejor herramientas clave como binding y manejo de campos como progress bar, y podria decirse que tambien la realizacion de operaciones logicas sencillas en KT</p>
+                <img src="assets/Saved Pictures/IMC_pantalla_1.png" class="img-fluid" width="25%" alt="Proyecto 2">
+                <img src="assets/Saved Pictures/IMC_pantalla_2.png" class="img-fluid" width="25%" alt="Proyecto 2"> 
+                <img src="assets/Saved Pictures/IMC_pantalla_3.png" class="img-fluid" width="25%" alt="Proyecto 2"> 
+            </div>
+            <!-- Puedes agregar más elementos "projects-item" según sea necesario -->
+        </article>
+        <article id="contacto" class="contact">
+            <h2>Contacto</h2>
+            <h3>Si deseas ponerte en contacto conmigo puedes hacerlo a través de:</h3>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://wa.me/593979158941" target="_blank"><img src="assets/Saved Pictures/wpp_logo.png" width="20%" alt=""> Escribeme</a></li>
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/ren%C3%A9-mogrovejo-2556182a4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BB8NxZTO8QKeAdHLL4yLoHA%3D%3D" target="_blank"><img src="assets/Saved Pictures/link-in-icon.png" width="20%" alt=""> Escribeme</a></li>
+                <li class="list-inline-item"><a href="mailto:alexandercde305@gmail.com" target="_blank"><img src="assets/Saved Pictures/gmail_icon.png" width="20%" alt=""> Escribeme</a></li>
+            </ul>
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2024 Mi Currículum</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+    </html>

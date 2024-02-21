@@ -1,0 +1,180 @@
+body {
+  background: linear-gradient(to bottom right, #00087e, #7a0808);
+}
+header {
+  background-color: #07083e;
+  padding: 2%;
+  width: 100%;
+  position: fixed;
+  z-index: 1000; /* asegura que el navbar esté sobre todo el contenido */
+}
+h1, h2, h3 {
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+}
+p {
+  font-family: sans-serif;
+  color: #abeeff;
+}
+.titulo {
+  font-size:45px;
+  font-family: 'Quicksand', sans-serif;
+  color: #fff ;
+}
+#menu {
+  font-family: 'Quicksand', sans-serif;
+  list-style-type: none;
+  align-items: center;
+}
+#menu li {
+  margin-left: 8px;
+}
+
+nav{
+  padding: 4%;
+  border-radius: 45px 0 45px 0;
+}
+#mi-nombre{
+  margin-left: 10%;
+  color:#00087e;
+}
+#mi-nombre:hover{
+  color: #00ccff;
+}
+nav ul li a {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 8%;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  transform: scale(1.07);
+  transition: transform 0.8s ease;
+  color: #00ccff;
+}
+article {
+  padding: 50px 20px;
+  margin: 8%;
+}
+#inicio{
+  margin-top: 14%;
+  display: inline-flex;
+  margin-bottom: 0%;
+}
+#inicio:target{
+  padding-top: 16%;
+}
+.mi-foto{
+  width: 45%; /* Ajusta el tamaño de la foto */
+  margin-left: auto;
+  margin-right: 10%;
+  display: block;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.mi-foto:hover{
+  transform: scale(1.3);
+  transition: transform 0.5s ease;
+}
+#sobre-mi{
+  width: 150px;
+  height: 45px;
+  color: #fff;
+  display: flex;
+  background:linear-gradient(to top right, #576ff377, #00ccff8e);
+  margin-left: 43%;
+  border-radius: 30px;
+  justify-content: center;
+  text-decoration:none;
+  font-size:xx-large;
+  font-family:'Quicksand', sans-serif ;
+}
+.img-fluid{
+  border-radius: 15px;
+}
+#sobre-mi:hover{
+  background:linear-gradient(to top right, #5970f0, #00ccff);
+}
+.experience-item,
+.projects-item,
+.contact {
+  background-color: #07083e;
+  color: #ffffff !important;
+  border-radius: 70px 0 70px 0;
+  margin-bottom: 50px;
+  padding: 5%;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 8px 8px 12px rgba(101, 219, 255, 0.802);
+}
+.experience-item:target{
+  padding-top: 14%;
+}
+#proyectos:target{
+  padding-top: 14%;
+}
+#contacto:target{
+  margin-top: 14%;
+}
+.link_w:hover{
+ text-decoration: none;
+}
+img{
+  margin-left: 3%;
+}
+.img_wissen{
+  width: 60px;
+  height: 60px;
+  background-color:#475edf4b;
+  border-radius: 18px 0 18px 0;
+}
+.img_wissen:hover{
+  text-decoration: none;
+  background-color: #00ccff;
+}
+.img_1app:hover{
+  transform: scale(1.1);
+  transition: transform 1.2s ease;
+}
+td{
+  width: 25%;
+}
+td img{
+  width: 100%;
+  max-width: 100px;
+}
+#contacto{
+  margin-top: 5%;
+  list-style-type: none;
+}
+#contacto ul li img{
+  width: 15%;
+}
+#contacto ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0; /* Elimina el padding predeterminado */
+}
+#contacto ul li{
+  background-color: #475edf31;
+  border-radius: 15px 0 15px 0;
+  padding: 8px;
+  margin: 2%;
+}
+#contacto ul li a{
+  font-family:'Quicksand', sans-serif ;
+  font-size:larger;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#contacto ul li a:hover{
+  text-decoration: none;
+}
+#contacto ul li:hover{
+  background: linear-gradient(to bottom right, #00087e, #475edf5b);
+}
+footer{
+  margin-left: 20%;
+}
