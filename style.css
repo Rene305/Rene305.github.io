@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom right, #00087e, #7a0808);
+  background: linear-gradient(to bottom right, #00087e, #ff3300);
 }
 header {
   background-color: #07083e;
@@ -13,8 +13,9 @@ h1, h2, h3 {
   color: #fff;
 }
 p {
-  font-family: sans-serif;
-  color: #abeeff;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  color: #ccb014;
 }
 .titulo {
   font-size:45px;
@@ -67,14 +68,11 @@ article {
 }
 .mi-foto{
   width: 55%; /* Ajusta el tamaño de la foto */
-  margin-left: auto;
-  margin-right: 10%;
-  display: block;
-  margin-top: 20px;
+  margin: 0 0 0 38%;
+  transition: transform 2s;
 }
 .mi-foto:hover{
   transform: scale(1.1);
-  transition: transform 0.8s ease;
 }
 #sobre-mi{
   width: 150px;
@@ -114,6 +112,20 @@ article {
 .experience-item:target{
   padding-top: 14%;
 }
+#download-cv{
+  width: 150px;
+  height: 45px;
+  color: #fff;
+  display: flex;
+  background:linear-gradient(to top right, #576ff377, #00ccff8e);
+  margin-left: 43%;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  text-decoration:none;
+  font-size:larger !important;
+  font-family:'Quicksand', sans-serif ;
+}
 #proyectos:target{
   padding-top: 14%;
 }
@@ -146,6 +158,14 @@ td{
 td img{
   width: 100%;
   max-width: 100px;
+}
+#items-skills{
+  display: flex;
+  flex-wrap: wrap;
+}
+#items-skills img{
+  width: 15%;
+  margin:2% 5%;
 }
 #contacto{
   margin-top: 5%;
