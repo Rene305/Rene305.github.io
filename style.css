@@ -1,8 +1,15 @@
+:root{
+  --color-primary:#0e1c36;
+  --color-secundary:#afcbff;
+  --color-terciary:#d7f9ff;
+  --color-cuternary:#f9fbf2;
+  --color-quito:##FFEDE1;
+}
 body {
-  background: linear-gradient(to bottom right, #00087e, #ff3300);
+  background: linear-gradient(to bottom right, var(--color-primary), var(--color-secundary));
 }
 header {
-  background-color: #07083e;
+  background-color: var(--color-primary);
   padding: 2%;
   width: 100%;
   position: fixed;
@@ -10,17 +17,17 @@ header {
 }
 h1, h2, h3 {
   font-family: 'Quicksand', sans-serif;
-  color: #fff;
+  color: var(--color-cuternary);
 }
 p {
   font-family: "Barlow", sans-serif;
   font-weight: 500;
-  color: #ccb014;
+  color: var(--color-cuternary);
 }
 .titulo {
   font-size:45px;
   font-family: 'Quicksand', sans-serif;
-  color: #fff ;
+  color: var(--color-cuternary) ;
 }
 #menu {
   font-family: 'Quicksand', sans-serif;
@@ -63,13 +70,10 @@ article {
   display: inline-flex;
   margin-bottom: 0%;
 }
-#inicio:target{
-  padding-top: 16%;
-}
 .mi-foto{
   width: 55%; /* Ajusta el tamaño de la foto */
   margin: 0 0 0 38%;
-  transition: transform 2s;
+  transition: transform 2s ease;
 }
 .mi-foto:hover{
   transform: scale(1.1);
@@ -101,21 +105,19 @@ article {
 .experience-item,
 .projects-item,
 .contact {
-  background-color: #07083e;
-  color: #ffffff !important;
+  background-color: var(--color-primary);
+  color:var(--color-cuternary);
   border-radius: 70px 0 70px 0;
   margin-bottom: 50px;
   padding: 5%;
-  transition: transform 0.3s ease-in-out;
-  box-shadow: 8px 8px 12px rgba(101, 219, 255, 0.802);
+  transition: transform 0.3s ease;
+  box-shadow: 8px 8px 12px var(--color-secundary);
 }
-.experience-item:target{
-  padding-top: 14%;
-}
+
 #download-cv{
   width: 150px;
   height: 45px;
-  color: #fff;
+  color: var(--color-cuternary);
   display: flex;
   background:linear-gradient(to top right, #576ff377, #00ccff8e);
   margin-left: 43%;
@@ -125,6 +127,16 @@ article {
   text-decoration:none;
   font-size:larger !important;
   font-family:'Quicksand', sans-serif ;
+}
+/*-------------------------------------------------------Targets----------------------------*/
+#inicio:target{
+  margin-top: 16%;
+}
+#educacion:target{
+  padding-top: 23% ;
+}
+#habilidades:target{
+  padding-top:20%;
 }
 #proyectos:target{
   padding-top: 14%;
